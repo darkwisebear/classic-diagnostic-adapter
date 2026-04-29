@@ -77,7 +77,7 @@ reqwest = { workspace = true }
 chrono = { workspace = true }
 
 [features]
-default = ["health", "openssl"]
+default = ["health", "mbedtls"]
 tokio-tracing = ["cda-interfaces/tokio-tracing", "cda-tracing/tokio-tracing"]
 openssl = ["cda-comm-doip/openssl"]
 openssl-vendored = ["openssl", "cda-comm-doip/openssl-vendored"]
